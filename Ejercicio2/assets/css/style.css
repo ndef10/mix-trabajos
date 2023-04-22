@@ -1,0 +1,41 @@
+
+
+body {
+    margin:0;
+    padding: 0;
+    border:0;
+    font-family: "dancing script";
+}
+
+#fondo {
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    height: 100vh;
+    position: relative;
+}
+
+.texto {
+    position:absolute;
+    bottom: 70px;   
+    right: 0;
+    margin: auto;
+    font-size: 33px;
+    display: flex;
+    padding-right: 50px;
+    font-weight: bold;
+
+}
+
+h1 {
+    text-align: end;
+    margin-right: 300px;
+    padding-top: 100px;
+    font-weight: bold;
+    font-size: 65px;
+    color: black;
+}
+
+
+

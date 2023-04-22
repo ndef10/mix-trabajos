@@ -1,0 +1,42 @@
+body {
+    margin:30;
+    padding: 0;
+    border:0;
+    font-family: "relaway";
+}
+
+#fondo {
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    height: 100vh;
+    position: relative;
+}
+
+p {
+    position:absolute;
+    bottom: 280px;
+    margin-left: 20;
+    right: 0;
+    margin: auto;
+    font-size: 30px;
+    display: flex;
+    color: black;
+    margin-right: 240px;
+    
+}
+img {
+    height: 500px;
+}
+
+h1 {
+    color: black;
+    text-align: end;
+    margin-right: 20%;
+    padding: 10px;
+    font-weight: bold;
+    padding-top: 150px;
+    font-size: 50px;
+    
+}

@@ -1,0 +1,38 @@
+body {
+    margin:0;
+    padding: 0;
+    border:0;
+    font-family: "sans-serif";
+}
+
+#fondo {
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    height: 100vh;
+    position: relative;
+}
+
+.texto {
+    position:absolute;
+    bottom: 25px;
+    margin-left: 20;
+    right: 0;
+    margin: auto;
+    font-size: 30px;
+    display: flex;
+    color: #ffffff;
+    padding-right: 50px;
+}
+img {
+    height: 500px;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 50px;
+    text-align: end;
+    padding-top: 50px;
+    margin-right: 150px;
+}
